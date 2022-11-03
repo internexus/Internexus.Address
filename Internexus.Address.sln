@@ -5,11 +5,15 @@ VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{97AB0E2D-875F-452A-85A0-28005EBFC31D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Internexus.Address.WebApi", "src\Internexus.Address.WebApi\Internexus.Address.WebApi.csproj", "{5E9212CB-101E-462A-8922-BA37A5547607}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Internexus.Address.WebApi", "src\Internexus.Address.WebApi\Internexus.Address.WebApi.csproj", "{5E9212CB-101E-462A-8922-BA37A5547607}"
+	ProjectSection(ProjectDependencies) = postProject
+		{575E1005-BAAC-4402-9522-5B990A71CDA2} = {575E1005-BAAC-4402-9522-5B990A71CDA2}
+		{E7BEE854-4EA4-49BB-B3DA-D59327E0846E} = {E7BEE854-4EA4-49BB-B3DA-D59327E0846E}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Internexus.Address.Domain", "src\Internexus.Address.Domain\Internexus.Address.Domain.csproj", "{575E1005-BAAC-4402-9522-5B990A71CDA2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Internexus.Address.Domain", "src\Internexus.Address.Domain\Internexus.Address.Domain.csproj", "{575E1005-BAAC-4402-9522-5B990A71CDA2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Internexus.Address.Infra", "src\Internexus.Address.Infra\Internexus.Address.Infra.csproj", "{E7BEE854-4EA4-49BB-B3DA-D59327E0846E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Internexus.Address.Infra", "src\Internexus.Address.Infra\Internexus.Address.Infra.csproj", "{E7BEE854-4EA4-49BB-B3DA-D59327E0846E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
